@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite" parallel="methods"  thread-count="5" >
+  <test name="webdriver_demo">
+    <classes>
+  <!--     <class name="driver.dataProvider">
+      
+      <methods>
+       <exclude name="test2"></exclude>
+      </methods>
+  
+      </class> -->
+              <class name="driver.dataProvider2"/>
+    </classes>
+  </test> <!-- webdriver_demo -->
+<!--   <listeners>
+          <listener class-name="autoframework.driver.testng.RetryListener"/>
+          <listener class-name="autoframework.driver.testng.TestResultListener"/>
+  </listeners> -->
+</suite> <!-- Default Suite -->
