@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default Suite" duration-ms="45" started-at="2018-11-30T08:08:51Z" finished-at="2018-11-30T08:08:51Z">
+  <suite name="Default Suite" duration-ms="55" started-at="2018-12-03T02:44:14Z" finished-at="2018-12-03T02:44:14Z">
     <groups>
     </groups>
-    <test name="webdriver_demo" duration-ms="45" started-at="2018-11-30T08:08:51Z" finished-at="2018-11-30T08:08:51Z">
+    <test name="webdriver_demo" duration-ms="55" started-at="2018-12-03T02:44:14Z" finished-at="2018-12-03T02:44:14Z">
       <class name="driver.dataProvider2">
-        <test-method status="PASS" signature="test2()[pri:0, instance:driver.dataProvider2@7cf10a6f]" name="test2" duration-ms="19" started-at="2018-11-30T16:08:51Z" finished-at="2018-11-30T16:08:51Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:driver.dataProvider2@7cf10a6f]" name="test2" duration-ms="17" started-at="2018-12-03T10:44:14Z" finished-at="2018-12-03T10:44:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:driver.dataProvider2@7cf10a6f]" name="test3" duration-ms="11" started-at="2018-11-30T16:08:51Z" finished-at="2018-11-30T16:08:51Z">
+        <test-method status="PASS" signature="test3()[pri:0, instance:driver.dataProvider2@7cf10a6f]" name="test3" duration-ms="17" started-at="2018-12-03T10:44:14Z" finished-at="2018-12-03T10:44:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->

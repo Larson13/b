@@ -46,7 +46,7 @@ public class mailTest2 {
      driver.findElement(By.id("code")).sendKeys("18673967193");
      driver.findElement(By.id("get_acc")).click();
    Thread.sleep(2000);
-   WebDriverWait  sDriverWait=  new WebDriverWait(driver, 30).until(ExpectedConditions.presenceOfElementLocated(By));
+
 
      String message= driver.findElement(By.xpath("html/body/div[3]/div[2]/div[1]/form/div[8]/div[2]/div")).getText();
      Boolean sBoolean =driver.findElement(By.xpath("html/body/div[3]/div[2]/div[1]/form/div[8]/div[2]/div")).isDisplayed();
